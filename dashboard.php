@@ -136,7 +136,6 @@ RUN docker-php-ext-install mysqli &amp;&amp; \
     db:
         image: mysql:latest
         environment:
-        MYSQL_ROOT_PASSWORD: password
         MYSQL_DATABASE: database
         networks:
             - net
